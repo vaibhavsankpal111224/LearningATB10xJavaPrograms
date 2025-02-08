@@ -4,20 +4,17 @@ public class Lab143_StringBuffer_StringBuilder {
     public static void main(String[] args) {
 
 
-        // String - > 90%
-        // StringBuilder -> 5-7% (Thread safty - we avoid it)
-        // ThreadLocal -> Multi Threading ->
 
 
-        StringBuffer stringBuffer = new StringBuffer("Pramod");
-        stringBuffer.append("Dutta");
+        StringBuffer stringBuffer = new StringBuffer("Vaibhav");
+        stringBuffer.append("Sankpal");
         System.out.println(stringBuffer);
         stringBuffer.reverse();
         System.out.println(stringBuffer);
 
 
-        StringBuilder stringBuilder = new StringBuilder("Pramod");
-        stringBuilder.append("Sharma");
+        StringBuilder stringBuilder = new StringBuilder("Vaibhav");
+        stringBuilder.append("Sankkkkpal");
         System.out.println(stringBuilder);
 
         stringBuilder.append(" World!"); // Modifies sb to "Hello World!"
@@ -32,3 +29,10 @@ public class Lab143_StringBuffer_StringBuilder {
 
     }
 }
+
+
+
+
+// String - > 90%
+// StringBuilder -> 5-7% (Thread safty - we avoid it)
+// ThreadLocal -> Multi Threading ->

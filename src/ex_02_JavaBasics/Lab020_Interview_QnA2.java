@@ -6,9 +6,10 @@ public class Lab020_Interview_QnA2 {
 //        System.out.println(enum);
 
         int a_b = 89;
-//        int pramod dutta  = 89;
-        int pramod$dutta = 90;
-
+       int vaibhav_sankpal  = 89;
+        int vaibhav$sankpal = 90;
+        System.out.println(vaibhav_sankpal);
+        System.out.println(vaibhav$sankpal);
         int Lab013 = 123;
 
     }

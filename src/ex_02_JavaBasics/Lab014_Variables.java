@@ -7,6 +7,7 @@ public class Lab014_Variables {
     }
 
     public void main(String args) {
+        System.out.println("A");
 
     }
 }

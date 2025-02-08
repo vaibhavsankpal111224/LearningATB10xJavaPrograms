@@ -12,7 +12,7 @@ public class Lab091_Switch_Basics {
         System.out.println("Enter the day number(1 to 7)");
         int day = sc.nextInt();
 
-        switch (day) {
+        switch (day) {  // switch(argument variable)
             case 1:
                 System.out.println("Mon");
                 break;

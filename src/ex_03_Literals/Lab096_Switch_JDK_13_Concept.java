@@ -1,7 +1,10 @@
 package ex_03_Literals;
 
-public class Lab096_Switch_JDK_13_Concept {
-    public static void main(String[] args) {
+public class Lab096_Switch_JDK_13_Concept
+{
+
+    public static void main(String[] args)
+    {
         // JDK > 13
 
         int itemcode = 006;
@@ -11,7 +14,7 @@ public class Lab096_Switch_JDK_13_Concept {
                 System.out.println("All of the them are Electronic Gadget");
                 break;
             case 004,006,007:
-                System.out.println("This is Mech");
+                System.out.println("This is Mechanical Gadget");
                 break;
             default:
                 System.out.println("None");
