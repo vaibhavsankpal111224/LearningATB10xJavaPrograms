@@ -1,6 +1,5 @@
-package ex_013_Functions;
+package ex_13_Functions;
 
-import java.math.BigInteger;
 import java.util.Scanner;
 
 public class Lab129_Task {

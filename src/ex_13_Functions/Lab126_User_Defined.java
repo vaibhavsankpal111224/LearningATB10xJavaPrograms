@@ -1,4 +1,4 @@
-package ex_013_Functions;
+package ex_13_Functions;
 
 public class Lab126_User_Defined {
     public static void main(String[] args) { // JVM program(running RAM)

@@ -1,4 +1,4 @@
-package ex_013_Functions;
+package ex_13_Functions;
 
 public class Lab127_User_defined_one {
     public static void main(String[] args) {
